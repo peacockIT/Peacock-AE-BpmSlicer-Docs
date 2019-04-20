@@ -1,15 +1,45 @@
+.. BpmSlicer documentation master file.
+
+
 BpmSlicerAE
-=====================================
+===========
+
+Most important References
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-  `After Effects Scripting Guide`_
+
+-  `The Javascript Tools Guide`_
+
+-  `Beginning ScriptUI 2-13-f-2017`_
+
+-  `Markup Cheatsheet for Readme.md`_
+
+-  `Socrates view markdown`_
+
+A manual for the After Effects Script
+-------------------------------------
 
 
-Contents:
+=================
+Table of Contents
+=================
+
+
+Content
+=======
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 2
 
-   bpmSlicerDoc
-   beatmanager
-   console
+   intro
+   Installation <getting_started/install>
+   basic_concepts
+   Reference <reference/reference>
+   Troubleshooting <troubleshooting>
+   Work in Progress <work_in_progress>
+
+
 
 
 .. contents:: Table of Contents
@@ -18,15 +48,10 @@ Contents:
 
 
 
+.. Indices and tables
+.. ==================
 
+.. * :ref:`genindex`
+.. * :ref:`search`
 
-
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
+.. * :ref:`modindex`
