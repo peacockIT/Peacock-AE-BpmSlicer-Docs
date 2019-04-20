@@ -2,6 +2,8 @@
 Settings
 ========
 
+.. contents:: Table of Contents
+
 Audio Reference
 ~~~~~~~~~~~~~~~
 

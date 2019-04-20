@@ -16,6 +16,7 @@ Most important References
 -  `Markup Cheatsheet for Readme.md`_
 -  `Socrates view markdown`_
 -  `Pandoc`_
+-  `Sphinx-rtd-theme.readthedocs.io`_
 
 A manual for the After Effects Script
 -------------------------------------
@@ -73,3 +74,5 @@ Content
 .. Github Peacock ESTK Libraries: https://github.com/peacockIT/Peacock-ESTK-Libraries
 .. Tetra peacockIT: https://app.tettra.co/teams/peacockIT
 .. Github: https://github.com/
+
+.. Sphinx-rtd-theme.readthedocs.io: https://sphinx-rtd-theme.readthedocs.io/en/stable/index.html

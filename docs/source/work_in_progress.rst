@@ -3,6 +3,7 @@ Work in Progress
 ================
 
 
+.. contents:: Table of Contents
 
 Recent Searches
 ~~~~~~~~~~~~~~~
