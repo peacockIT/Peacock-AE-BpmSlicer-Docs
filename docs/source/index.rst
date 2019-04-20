@@ -5,13 +5,15 @@ BpmSlicerAE
 Contents:
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   :maxdepth: 3
 
+   bpmSlicerDoc
    beatmanager
    console
 
 
+.. contents:: Table of Contents
+.. section-numbering::
 
 
 
