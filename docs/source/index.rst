@@ -2,13 +2,10 @@ BpmSlicerAE
 =====================================
 
 
-Guide
------
+Contents:
 
 .. toctree::
    :maxdepth: 2
-   license
-   help
    :caption: Contents:
 
 
