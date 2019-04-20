@@ -2,6 +2,8 @@
 Troubleshooting
 ===============
 
+.. contents:: Table of Contents
+
 My working environment:
 -----------------------
 

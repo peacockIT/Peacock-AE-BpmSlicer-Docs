@@ -19,12 +19,6 @@ beat of a piece of music. For this to work you need to set the Bpm rate
 If you're starting out with BpmSlicer,
 read the :doc:`basic_concepts` section first.
 
-1. Select a layer
-2. Set the slicing rate (32 bars, 16 bars, 8, 4, 1, 1/4, 1/8, 1/16,
-   1/32)
-3. Check the ‚Marker‘ checkbox in case you need composition markers for
-   all slices
-4. Click ‚Slice‘
    
 
 

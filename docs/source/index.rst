@@ -4,29 +4,23 @@
 ===========
 BpmSlicerAE
 ===========
+***********
+BpmSlicerAEStar
+***********
 
 .. include:: ../../README.rst
 
-.. Most important References
-.. ~~~~~~~~~~~~~~~~~~~~~~~~~
+Most important References
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. -  `After Effects Scripting Guide`_
-.. -  `The Javascript Tools Guide`_
-.. -  `Beginning ScriptUI 2-13-f-2017`_
-.. -  `Markup Cheatsheet for Readme.md`_
-.. -  `Socrates view markdown`_
-.. -  `Pandoc`_
-.. -  `Sphinx-rtd-theme.readthedocs.io`_
+-  `After Effects Scripting Guide`_
+-  `The Javascript Tools Guide`_
+-  `Beginning ScriptUI 2-13-f-2017`_
+-  `Markup Cheatsheet for Readme.md`_
+-  `Socrates view markdown`_
+-  `Pandoc`_
+-  `Sphinx-rtd-theme.readthedocs.io`_
 
-
-
-=================
-Table of Contents
-=================
-
-
-Content
-=======
 
 .. toctree::
    :caption: Documentation
@@ -35,12 +29,12 @@ Content
    intro
    Installation <getting_started/install>
    basic_concepts
+   Getting Started <getting_started/getting_started>
    Reference <reference/reference>
 
 
 .. toctree::
-    :maxdepth: 3
-    :numbered:
+    :maxdepth: 2
     :caption: Troubleshooting
 
     Troubleshooting <troubleshooting>

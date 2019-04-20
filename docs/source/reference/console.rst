@@ -1,6 +1,8 @@
 The Console
 ===========
 
+.. contents:: Table of Contents
+
 The console is like a command line. Three different types of input are
 possible.
 
