@@ -7,19 +7,17 @@ BpmSlicerAE
 
 .. include:: ../../README.rst
 
-Most important References
-~~~~~~~~~~~~~~~~~~~~~~~~~
+.. Most important References
+.. ~~~~~~~~~~~~~~~~~~~~~~~~~
 
--  `After Effects Scripting Guide`_
--  `The Javascript Tools Guide`_
--  `Beginning ScriptUI 2-13-f-2017`_
--  `Markup Cheatsheet for Readme.md`_
--  `Socrates view markdown`_
--  `Pandoc`_
--  `Sphinx-rtd-theme.readthedocs.io`_
+.. -  `After Effects Scripting Guide`_
+.. -  `The Javascript Tools Guide`_
+.. -  `Beginning ScriptUI 2-13-f-2017`_
+.. -  `Markup Cheatsheet for Readme.md`_
+.. -  `Socrates view markdown`_
+.. -  `Pandoc`_
+.. -  `Sphinx-rtd-theme.readthedocs.io`_
 
-A manual for the After Effects Script
--------------------------------------
 
 
 =================
