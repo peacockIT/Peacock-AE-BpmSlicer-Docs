@@ -5,6 +5,8 @@
 BpmSlicerAE
 ===========
 
+.. include:: ../../README.rst
+
 Most important References
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -28,16 +30,22 @@ Content
 =======
 
 .. toctree::
-   :maxdepth: 2
+    :caption: Documentation
+    :maxdepth: 2
 
-   intro
-   Installation <getting_started/install>
-   basic_concepts
-   Reference <reference/reference>
-   Troubleshooting <troubleshooting>
-   Work in Progress <work_in_progress>
+    intro
+	Installation <getting_started/install>
+   	basic_concepts
+   	Reference <reference/reference>
 
 
+.. toctree::
+    :maxdepth: 3
+    :numbered:
+    :caption: Troubleshooting
+
+	Troubleshooting <troubleshooting>
+	Work in Progress <work_in_progress>
 
 
 
