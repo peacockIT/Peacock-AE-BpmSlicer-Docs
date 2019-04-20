@@ -29,13 +29,13 @@ Content
 =======
 
 .. toctree::
-    :caption: Documentation
-    :maxdepth: 2
+   :caption: Documentation
+   :maxdepth: 2
 
-    intro
-	Installation <getting_started/install>
-   	basic_concepts
-   	Reference <reference/reference>
+   intro
+   Installation <getting_started/install>
+   basic_concepts
+   Reference <reference/reference>
 
 
 .. toctree::
@@ -43,8 +43,8 @@ Content
     :numbered:
     :caption: Troubleshooting
 
-	Troubleshooting <troubleshooting>
-	Work in Progress <work_in_progress>
+    Troubleshooting <troubleshooting>
+    Work in Progress <work_in_progress>
 
 
 
