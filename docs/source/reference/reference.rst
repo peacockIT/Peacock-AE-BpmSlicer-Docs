@@ -9,4 +9,5 @@ about the BpmSlicer script.
 .. toctree::
     :maxdepth: 2
 
+    generel
     console
