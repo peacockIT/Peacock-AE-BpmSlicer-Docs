@@ -51,3 +51,35 @@ Tabcompletion Code Snippet
 ``if else``   \`if(markers
 ============= ================================================================================================================================
 
+
+Shortcuts
+---------
+
+:select: ``for(var i=0; i<comp.selectedLayers.length;i++){
+             var layer = comp.selectedLayers[i]; if(layer.name != "")
+             layer.selected = true;
+         }``
+:bpm: ``log.text = beatManager.calculateBeatRate(beatManager.getBpm(), "1/4");``
+
+
+
+Tabcompletion List
+^^^^^^^^^^^^^^^^^
+
+- for
+      .. code:: javascript
+         :caption: for
+         for(var i=0; i<comp.selectedLayers.length; i++){
+            var layer = comp.selectedLayers[i];
+            log.appendLog(i + " " + layer.name);
+         }
+- for2
+      .. code:: javascript
+         :caption: for
+         for(var i=0; i<comp.selectedLayers.length; i++){
+            var layer = comp.selectedLayers[i];
+            log.appendLog(i + " " + layer.name);
+         }
+  
+
+
