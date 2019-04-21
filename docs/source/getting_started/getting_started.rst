@@ -50,6 +50,6 @@ By clicking the ``midi`` button a file chooser dialog is opened and you
 get to choose a txt file with informations about all slices. Each line
 of the txt file contains 4 parameter values (noteLayer, sliceIn,
 sliceOut, Velocity) that represent one slice. Please refer to
-:doc:`midiconverter` on how to convert a midifile
+:doc:`../reference/midiconverter` on how to convert a midifile
 into such a txt file.
 

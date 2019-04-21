@@ -20,7 +20,7 @@ beat of a piece of music. For this to work you need to set the Bpm rate
 (Beats per minute) of your song.
 
 If you're starting out with BpmSlicer,
-read the :doc:`getting_started` section first.
+read the :doc:`getting_started/getting_started` section first.
 
 
 
