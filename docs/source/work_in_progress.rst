@@ -7,41 +7,27 @@ Work in Progress
 Recent Searches
 ~~~~~~~~~~~~~~~
 
--  `Progressbar estk.aenhancers`_
+-  `Progressbar estk.aenhancers <http://estk.aenhancers.com/4%20-%20User-Interface%20Tools/control-objects.html#progressbar>`_
 
--  `ShortcutKey estk.aenhancers`_
+-  `ShortcutKey estk.aenhancers <http://estk.aenhancers.com/4%20-%20User-Interface%20Tools/control-objects.html#shortcutkey>`_
 
--  `Event Handling estk.aenhancers`_
+-  `Event Handling estk.aenhancers <http://estk.aenhancers.com/4%20-%20User-Interface%20Tools/event-handling.html>`_
 
--  `Layer applyPreset estk.aenhancers`_
+-  `Layer applyPreset estk.aenhancers <http://docs.aenhancers.com/layers/layer/#layer-applypreset>`_
 
--  `AVLayer autoOrient estk.aenhancers`_
+-  `AVLayer autoOrient estk.aenhancers <http://docs.aenhancers.com/layers/avlayer/#avlayer-autoorient>`_
 
--  `AVLayer source estk.aenhancers`_
+-  `AVLayer source estk.aenhancers <http://docs.aenhancers.com/layers/avlayer/#avlayer-source>`_
 
--  `AVLayer replaceSource estk.aenhancers`_
+-  `AVLayer replaceSource estk.aenhancers <http://docs.aenhancers.com/layers/avlayer/#avlayer-replacesource>`_
 
--  `AVLayer sourceRectAtTime estk.aenhancers`_
+-  `AVLayer sourceRectAtTime estk.aenhancers <http://docs.aenhancers.com/layers/avlayer/#avlayer-sourcerectattime>`_
 
--  `NumericEditKeyboardHandler`_
+-  `NumericEditKeyboardHandler <https://forums.adobe.com/thread/1240406>`_
 
--  `Addeventlistener vs OnClick attribute`_
+-  `Addeventlistener vs OnClick attribute <https://forums.adobe.com/thread/2591212>`_
 
--  `Script Console Script`_
-
-.. _Progressbar estk.aenhancers: http://estk.aenhancers.com/4%20-%20User-Interface%20Tools/control-objects.html#progressbar
-.. _ShortcutKey estk.aenhancers: http://estk.aenhancers.com/4%20-%20User-Interface%20Tools/control-objects.html#shortcutkey
-.. _Event Handling estk.aenhancers: http://estk.aenhancers.com/4%20-%20User-Interface%20Tools/event-handling.html
-.. _Layer applyPreset estk.aenhancers: http://docs.aenhancers.com/layers/layer/#layer-applypreset
-.. _AVLayer autoOrient estk.aenhancers: http://docs.aenhancers.com/layers/avlayer/#avlayer-autoorient
-.. _AVLayer source estk.aenhancers: http://docs.aenhancers.com/layers/avlayer/#avlayer-source
-.. _AVLayer replaceSource estk.aenhancers: http://docs.aenhancers.com/layers/avlayer/#avlayer-replacesource
-.. _AVLayer sourceRectAtTime estk.aenhancers: http://docs.aenhancers.com/layers/avlayer/#avlayer-sourcerectattime
-.. _NumericEditKeyboardHandler: https://forums.adobe.com/thread/1240406
-.. _Addeventlistener vs OnClick attribute: https://forums.adobe.com/thread/2591212
-.. _Script Console Script: https://www.adobeexchange.com/creativecloud.details.2450.script-console.html
-
-
+-  `Script Console Script <https://www.adobeexchange.com/creativecloud.details.2450.script-console.html>`_
 
 
 
@@ -54,7 +40,7 @@ In Progress
 -  Using the up and down arrow keys to change numerical data `page 99 in
    scriptui PDF`_
 
-.. code:: javascript
+.. code-block:: javascript
 
    function handle_key (key, control)
    {
@@ -73,7 +59,7 @@ In Progress
 -  `addEventListener() estk.aenhancers.com`_
 -  `Understanding capturingPhase`_
 
-.. code:: javascript
+.. code-block:: javascript
 
    controlObj.addEventListener('change', handler, capturePhase);
    controlObj.addEventListener('changing', handler, capturePhase);
@@ -89,14 +75,14 @@ In Progress
 -  `preventDefault();`_
 -  Example: onActivate(), onDeactivate() `page 103 in scriptui PDF`_
 
-.. code:: javascript
+.. code-block:: javascript
 
    ddown.onActivate = ddown.onDeactivate = function () {buffer = "";}
 
 -  Validating Input, edittext with red background `page 104 in scriptui
    PDF`_
 
-.. code:: javascript
+.. code-block:: javascript
 
    w.input.onChanging = function () {
        w.ok.enabled = !app.activeDocument.hyperlinkTextDestinations.item
@@ -111,7 +97,7 @@ In Progress
 
 -  own display alert message with edit text `scriptui-2-13-f-2017`_
 
-.. code:: javascript
+.. code-block:: javascript
 
    // create an example array
    array = [];
@@ -181,7 +167,7 @@ Done
 EventHandling
 ~~~~~~~~~~~~~
 
-.. code:: javascript
+.. code-block:: javascript
 
    var newEvent = ScriptUI.events.createEvent( "UIEvent" );
    //initUIEvent(eventName, bubble, isCancelable, view, detail)

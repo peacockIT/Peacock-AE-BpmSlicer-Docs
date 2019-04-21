@@ -10,22 +10,7 @@ possible.
 After Effects Keyframes / Mocha Tracking Data
     You can either paste Mocha tracking data directly from Mocha into the console or Keyframes from a selected layer property in After Effects. Note that only Position, Scale and Rotation keyframes are supported yet. If you press: ``Cmd+Enter`` or the ``'R' button`` the keyframes are getting parsed into an internal keyframe data structure.
 
-    .. Note:: (There is no use for the parsed keyframes yet. I plan to manipulate tracking data keyframes synced to the beat)
-
-
-    .. Important::
-       - Wash behind your ears.
-       - Clean up your room.
-
-         - Including the closet.
-         - The bathroom too.
-
-           - Take the trash out of the bathroom.
-           - Clean the sink.
-       - Call your mother.
-       - Back up your data.
-
-    .. Error:: Does not compute.
+    .. Note:: There is no use for the parsed keyframes yet. I plan to manipulate tracking data keyframes synced to the beat.
 
 Peacock midi note data
     The external standalone program "Midiconverter" converts a midi file (.mid) into 'Peacock midi note data'. For this to work the midi notes in the midi file have to be in the range from C3 - C4 and you need to set the proper bpm value.
@@ -36,20 +21,19 @@ Executable javascript
     You can write any javascript code you like and execute it directly from the console. Some useful code snippets are accessible through tabcompletion and shortcuts
 
 
+
 Tabcompletion
 -------------
 
-- A list of all tab completion snippets
-      **for**
-      .. code-block:: javascript
-        :caption: for
+for
+    .. code-block:: javascript
 
-        for(var i=0; i<comp.selectedLayers.length; i++){
-          var layer = comp.selectedLayers[i];
-          log.appendLog(i + " " + layer.name);
-        }
+    for(var i=0; i<comp.selectedLayers.length; i++){
+      var layer = comp.selectedLayers[i];
+      log.appendLog(i + " " + layer.name);
+    }
 
-      ``fors``
+fors
       .. code-block:: javascript
 
         for(var i=0; i<slices.slices.length; i++) {
@@ -57,7 +41,7 @@ Tabcompletion
           log.appendLog(i + " " + slice.getInPoint());
         }
 
-      :guilabel:`form`
+      :guilabel:`form` tst
       .. code-block:: javascript
 
         for(var i=0; i<markers.markers.length; i++) {

@@ -28,14 +28,14 @@ Select Workarea
 
 Select the workarea to which all actions of this script are applied.
 
--  **Comp Workarea:** The workarea is the workarea of the active
-   composition.
--  **Layer in/out:** The workareas in and out points are the in and out
-   points of the selected layer. If multiple layers are selected, the
-   lowest in point and the highest out point of all layers are
-   considered.
--  **Comp Duration:** The workarea starts at 0 and ends with the
-   duration of the active composition.
+Comp Workarea
+    The workarea is the workarea of the active composition.
+
+Layer in/out
+    The workareas in and out points are the in and out points of the selected layer. If multiple layers are selected, the lowest in point and the highest out point of all layers are considered.
+
+Comp Duration
+    The workarea starts at 0 and ends with the duration of the active composition.
 
 Tools for selected Layer/s
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -70,14 +70,23 @@ For all selected layers:
 
 1. The function tries to find a new randomly choosen starttime for the
    layer
-   ⋅⋅⋅\ ``layer.startTime += (Math.random() < 0.5) ? Math.random() * 100 : Math.random() * -100;``\ ⋅⋅
+   .. code-block:: javascript
+
+      layer.startTime += (Math.random() < 0.5) ? Math.random() * 100 : Math.random() * -100;
+
 2. The function tries to find a new randomly choosen stretch value for
    the layer
-   ⋅⋅⋅\ ``layer.stretch = 200 * Math.random() or layer.stretch = 200 * Math.random() * (-1)``
+   .. code-block:: javascript
+
+      layer.stretch = 200 * Math.random() or layer.stretch = 200 * Math.random() * (-1)
 
 If the original in- and out-point of the layer have changed by setting
 the randomly choosen values
-``(origInPoint != layer.inPoint && origOutPoint != layer.outPoint)``,
+
+.. code-block:: javascript
+
+   (origInPoint != layer.inPoint && origOutPoint != layer.outPoint)
+
 the function tries to find another starttime/stretch value for the layer
 and loops through this process as long as the condition is not true.
 
@@ -103,8 +112,7 @@ Preview
 
 When the script launches, the display update function is turned off.
 
-   Option+Click (Win Alt+Click): An scheduled update function for the
-   display is toggled on (or off).
+   Mac: ``Option+Click`` Win ``Alt+Click``: An scheduled update function for the display is toggled on (or off).
 
 If the update function is running the preview area is updated each
 second with means by an scheduled task from after effects.
@@ -112,7 +120,6 @@ second with means by an scheduled task from after effects.
 This only works if the script runs as a panel (If the script is launched
 as a window the update function doesn‘t work).
 
-   Option+Shift+Click (Win Alt+Shift+Click): All scheduled tasks that
-   are running are getting closed.
+   Mac: ``Option+Shift+Click`` Win ``Alt+Shift+Click``: All scheduled tasks that are running are getting closed.
 
 

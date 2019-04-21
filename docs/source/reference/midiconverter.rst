@@ -5,7 +5,7 @@ Midiconverter (external)
 .. contents:: Table of Contents
 
 
-.. image:: _static/midiconverter.png
+.. image:: ../_static/midiconverter.png
 
 
 Midi converter button
@@ -17,12 +17,11 @@ otherwise the notes won‘t be recognized.
 
 The chosen .mid file is converted to a .txt file with a assigned
 videotrack a note-on and note-off value and a velocity value that can be
-imported by the Premiere Pro extension ‚BpmSlicer‘.
+imported by the Premiere Pro extension ``BpmSlicer``.
 
-e.g.
-
--  1 0 2.5 0.5
--  2 2.5 3.4 1.0
+for example:
+    -  1 0 2.5 0.5
+    -  2 2.5 3.4 1.0
 
 Bpm editor
 ----------
@@ -31,7 +30,7 @@ Before the midi clip is converted, a tempo event with the given ‚bpm‘
 rate is added to the midi clip.
 
 If the midi clip has a tempo event already and you want to use it
-instead of a new one, set the bpm value to ‚-1‘.
+instead of a new one, set the bpm value to ``-1``.
 
 If the bpm editor is empty the default bpm value of 120 is used.
 
@@ -48,8 +47,8 @@ Clipboard
 
 The velocity values of all midi note-on messages are mapped to the range
 of 0.0 - 1.0 and copied to the systems clipboard so that you can simply
-paste the values as keyframes onto a selected ‚expression slider‘
-property in After Effects. A ‚expression slider‘ with those keyframes
+paste the values as keyframes onto a selected ``expression slider``
+property in After Effects. A ``expression slider`` with those keyframes
 can then be used to manipulate different properties and effects.
 
 
@@ -82,21 +81,21 @@ range between C3 - B3, otherwise the notes won‘t be recognized. Note
 that the notes of C3 are placed onto videotrack 1, the notes of C#3 onto
 videotrack 2 and so on.
 
--  C3 -> videotrack 1
--  C#3 -> videotrack 2
--  D3 -> videotrack 3
--  ... -> ...
--  B3 -> videotrack 12
+  :C3:  videotrack 1
+  :C#3:  videotrack 2
+  :D3:  videotrack 3
+  :...:  ...
+  :B3:  videotrack 12
 
-.. image:: _static/MidinoteRange.png
+.. image:: ../_static/MidinoteRange.png
 
 Preparing your footage
 ----------------------
 
 If there is no BpmSlicer folder structure already you can create one by
-clicking the „create folders“ Button. The next step is to put all your
+clicking the ``create folders`` Button. The next step is to put all your
 footage you want to be placed into the active sequence, according to the
-notes in the midi file, into the „1 source“ folder and assign the
+notes in the midi file, into the ``1 source`` folder and assign the
 appropriate prefix for each footage item. Make sure the prefix is a
 number between 1 - 12 and make sure there is a white space between the
 prefix number and the footage name.
@@ -108,13 +107,13 @@ sure there are at least 4 videotracks available.
 
 ::
 
-   BpmSlicer
-       1 source
-           1 VideoClip2.mov
-           2 LensFlare2.mov
-           3 Transition_1.mov
-           4 PaperTexture_9.png
-           4 PaperTexture_1.mov
+  BpmSlicer
+    1 source
+      1 VideoClip2.mov
+      2 LensFlare2.mov
+      3 Transition_1.mov
+      4 PaperTexture_9.png
+      4 PaperTexture_1.mov
 
 As you notice in the example it‘s possible to assign the same prefix to
 as many footage items as you like. If you assign the same prefix to more

@@ -19,7 +19,7 @@ Remove first selected layers
 ----------------------------
 
 After all slices are created, the layer/s that where selected before the
-‚Slice‘ button was pressed, are getting deleted.
+``Slice`` button was pressed, are getting deleted.
 
 Put in sub comp
 ---------------
@@ -39,8 +39,7 @@ randomly choosen such as random color overlay for each slice.
 -  Farbbalance (HSL)
 -  Farbton, Sättigung
 -  4-Farben-Verlauf
--  Punkt 1, Farbe 1, Punkt 2, Farbe 2, Punkt 3, Farbe 3, Punkt 4, Farbe
-   4, Deckkraft
+  -  Punkt 1, Farbe 1, Punkt 2, Farbe 2, Punkt 3, Farbe 3, Punkt 4, Farbe 4, Deckkraft
 
 Set starttime to inPoint
 ------------------------
@@ -50,13 +49,13 @@ Sets the start time of all slices to the inpoint.
 Use beat detection
 ------------------
 
-See ‚Markers from Beat‘.
+See ``Markers from Beat``.
 
 Save Bpm Slices
 ---------------
 
 If checked then the slices of the sliceArray are getting saved in a txt
-file called ‚BpmSlices.txt‘ in the same folder where the after effects
+file called ``BpmSlices.txt`` in the same folder where the after effects
 project is located.
 
 Snap In/Out Transition To Bpm
