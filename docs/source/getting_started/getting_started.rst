@@ -21,9 +21,9 @@ Quick Start
 1. Select a layer
 2. Set the slicing rate (32 bars, 16 bars, 8, 4, 1, 1/4, 1/8, 1/16,
    1/32)
-3. Check the ‚Marker‘ checkbox in case you need composition markers for
+3. Check the ``Marker`` checkbox in case you need composition markers for
    all slices
-4. Click ‚Slice‘
+4. Click ``Slice``
 
 Creating a sliceArray
 ~~~~~~~~~~~~~~~~~~~~~
@@ -31,7 +31,7 @@ Creating a sliceArray
 Set Bars
 --------
 
-By setting a new value in the ‚Bars‘ dropdown a new sliceArray is
+By setting a new value in the ``Bars`` dropdown a new sliceArray is
 created which contains slices that are quantized to the selected bars
 value and the bpm.
 
@@ -46,10 +46,10 @@ or layer. This only works if there are at least 2 markers existing.
 Read Slices from Txt File
 -------------------------
 
-By clicking the ‚midi‘ button a file chooser dialog is opened and you
+By clicking the ``midi`` button a file chooser dialog is opened and you
 get to choose a txt file with informations about all slices. Each line
 of the txt file contains 4 parameter values (noteLayer, sliceIn,
 sliceOut, Velocity) that represent one slice. Please refer to
-„Midiconverter (external)“ auf Seite <?> on how to convert a midifile
+:doc:`midiconverter` on how to convert a midifile
 into such a txt file.
 

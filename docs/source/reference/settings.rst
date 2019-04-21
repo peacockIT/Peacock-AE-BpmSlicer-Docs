@@ -36,10 +36,10 @@ the adjustment layer. The keyframes on the effects are the slice
 inPoints from the sliceArray. Basically the values for each slice are
 randomly choosen such as random color overlay for each slice.
 
--  Farbbalance (HSL)
--  Farbton, Sättigung
--  4-Farben-Verlauf
-  -  Punkt 1, Farbe 1, Punkt 2, Farbe 2, Punkt 3, Farbe 3, Punkt 4, Farbe 4, Deckkraft
+- Farbbalance (HSL)
+- Farbton, Sättigung
+- 4-Farben-Verlauf
+  Punkt 1, Farbe 1, Punkt 2, Farbe 2, Punkt 3, Farbe 3, Punkt 4, Farbe 4, Deckkraft
 
 Set starttime to inPoint
 ------------------------

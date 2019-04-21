@@ -28,14 +28,14 @@ Select Workarea
 
 Select the workarea to which all actions of this script are applied.
 
-Comp Workarea
-    The workarea is the workarea of the active composition.
+  Comp Workarea
+      The workarea is the workarea of the active composition.
 
-Layer in/out
-    The workareas in and out points are the in and out points of the selected layer. If multiple layers are selected, the lowest in point and the highest out point of all layers are considered.
+  Layer in/out
+      The workareas in and out points are the in and out points of the selected layer. If multiple layers are selected, the lowest in point and the highest out point of all layers are considered.
 
-Comp Duration
-    The workarea starts at 0 and ends with the duration of the active composition.
+  Comp Duration
+      The workarea starts at 0 and ends with the duration of the active composition.
 
 Tools for selected Layer/s
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -43,14 +43,12 @@ Tools for selected Layer/s
 move back
 ---------
 
-Moves the selected layer according to the bpm and bars value to the
-left.
+Moves the selected layer according to the bpm and bars value to the left.
 
 move forth
 ---------
 
-Moves the selected layer according to the bpm and bars value to the
-right.
+Moves the selected layer according to the bpm and bars value to the right.
 
 Arrange Layer/s
 ---------------
@@ -68,14 +66,14 @@ Foist
 
 For all selected layers:
 
-1. The function tries to find a new randomly choosen starttime for the
-   layer
+- The function tries to find a new randomly choosen starttime for the layer
+
    .. code-block:: javascript
 
       layer.startTime += (Math.random() < 0.5) ? Math.random() * 100 : Math.random() * -100;
 
-2. The function tries to find a new randomly choosen stretch value for
-   the layer
+2. The function tries to find a new randomly choosen stretch value for the layer
+
    .. code-block:: javascript
 
       layer.stretch = 200 * Math.random() or layer.stretch = 200 * Math.random() * (-1)
@@ -98,7 +96,7 @@ Load Txt
 Load a txt file that contains midi note on and off information and
 import them as slices into the sliceArray (The in points of the slices
 are getting added to the markerArray which could be added as markers to
-a layer or the composition by clicking the ‚Add‘ button).
+a layer or the composition by clicking the ``Add`` button).
 
 Save Txt
 --------

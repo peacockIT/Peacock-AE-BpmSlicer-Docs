@@ -12,7 +12,7 @@ Read
 
 Read all markers from the selected layer or the active composition and
 save them as slices to the sliceArray and as markers to the markerArray.
-If you choose to click the ‚Slice‘ button right after reading markers
+If you choose to click the ``Slice`` button right after reading markers
 with this function, the selected layer is sliced at the points in the
 timeline where the markers were positioned.
 
@@ -31,5 +31,5 @@ Quantize
 --------
 
 The markers of the selected layer are getting quantized to the currently
-set bpm and bars value in the region that is set by the ‚Workarea‘
+set bpm and bars value in the region that is set by the ``Workarea``
 dropdown list (This function doesn‘t work with composition markers yet).
