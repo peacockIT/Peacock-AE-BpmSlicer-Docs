@@ -10,7 +10,7 @@ Quick Start
 
 | Create a composition with some video footage in it and make sure it is
   selected. Leave all settings in the BpmSlicer as is and click the
-  ‚Slice‘ button at the bottom of the script. The selected footage layer
+  `Slice`` button at the bottom of the script. The selected footage layer
   is getting sliced as seen in the image below:
 | The reason why there are exactly 5 slices is because by default the
   sliceArray is set like this:

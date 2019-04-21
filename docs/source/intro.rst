@@ -2,9 +2,10 @@
 About This Documentation
 ************************
 
-.. image:: _static/sample-intro.png
-
 .. figure:: _static/sample-intro.png
+   :align: center
+
+   BpmSlicer
 
 Description
 ~~~~~~~~~~~

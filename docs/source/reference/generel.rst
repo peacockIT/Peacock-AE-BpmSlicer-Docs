@@ -72,7 +72,7 @@ For all selected layers:
 
       layer.startTime += (Math.random() < 0.5) ? Math.random() * 100 : Math.random() * -100;
 
-2. The function tries to find a new randomly choosen stretch value for the layer
+- The function tries to find a new randomly choosen stretch value for the layer
 
    .. code-block:: javascript
 
@@ -115,8 +115,7 @@ When the script launches, the display update function is turned off.
 If the update function is running the preview area is updated each
 second with means by an scheduled task from after effects.
 
-This only works if the script runs as a panel (If the script is launched
-as a window the update function doesn‘t work).
+.. Note:: This only works if the script runs as a panel (If the script is launched as a window the update function doesn‘t work.
 
    Mac: ``Option+Shift+Click`` Win ``Alt+Shift+Click``: All scheduled tasks that are running are getting closed.
 

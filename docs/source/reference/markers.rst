@@ -32,4 +32,6 @@ Quantize
 
 The markers of the selected layer are getting quantized to the currently
 set bpm and bars value in the region that is set by the ``Workarea``
-dropdown list (This function doesn‘t work with composition markers yet).
+dropdown list.
+
+.. Note:: This function doesn‘t work with composition markers yet.

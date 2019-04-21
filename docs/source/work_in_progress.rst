@@ -5,7 +5,7 @@ Work in Progress
 .. contents:: Table of Contents
 
 Recent Searches
-~~~~~~~~~~~~~~~
+---------------
 
 -  `Progressbar estk.aenhancers <http://estk.aenhancers.com/4%20-%20User-Interface%20Tools/control-objects.html#progressbar>`_
 
@@ -32,7 +32,7 @@ Recent Searches
 
 
 In Progress
-~~~~~~~~~~~
+-----------
 
 -  Console: Paste keyframe functionality
 -  Console: Parse multiline input (slices, markers, keyframes/Mocha)
@@ -70,10 +70,10 @@ In Progress
 
 .. _page 99 in scriptui PDF: https://adobeindd.com/view/publications/a0207571-ff5b-4bbf-a540-07079bd21d75/y2c4/publication-web-resources/pdf/scriptui-2-13-f-2017.pdf#page=99
 .. _addEventListener() estk.aenhancers.com: http://estk.aenhancers.com/4%20-%20User-Interface%20Tools/control-objects.html#addeventlistener
-.. _Understanding capturingPhase: https://stackoverflow.com/questions/7398290/unable-to-understand-usecapture-parameter-in-addeventlistener*
--  `stopPropagation();`_
--  `preventDefault();`_
--  Example: onActivate(), onDeactivate() `page 103 in scriptui PDF`_
+.. _Understanding capturingPhase: https://stackoverflow.com/questions/7398290/unable-to-understand-usecapture-parameter-in-addeventlistener
+-  `stopPropagation() <http://estk.aenhancers.com/4%20-%20User-Interface%20Tools/event-handling.html#stoppropagation>`_
+-  `preventDefault() <http://estk.aenhancers.com/4%20-%20User-Interface%20Tools/event-handling.html#preventdefault>`_
+-  Example: onActivate(), onDeactivate() `page 103 in scriptui PDF <https://adobeindd.com/view/publications/a0207571-ff5b-4bbf-a540-07079bd21d75/y2c4/publication-web-resources/pdf/scriptui-2-13-f-2017.pdf#page=103>`_
 
 .. code-block:: javascript
 
@@ -95,7 +95,7 @@ In Progress
        w.ok.enabled = valid;
    }
 
--  own display alert message with edit text `scriptui-2-13-f-2017`_
+-  own display alert message with edit text `scriptui-2-13-f-2017 <https://adobeindd.com/view/publications/a0207571-ff5b-4bbf-a540-07079bd21d75/y2c4/publication-web-resources/pdf/scriptui-2-13-f-2017.pdf#page=16>`_
 
 .. code-block:: javascript
 
@@ -124,14 +124,9 @@ In Progress
 -  edittext syntax highlighting/coloring, marker, slice
 -  Add reveal preferences button to GUI
 
-.. _stopPropagation();: http://estk.aenhancers.com/4%20-%20User-Interface%20Tools/event-handling.html#stoppropagation
-.. _preventDefault();: http://estk.aenhancers.com/4%20-%20User-Interface%20Tools/event-handling.html#preventdefault
-.. _page 103 in scriptui PDF: https://adobeindd.com/view/publications/a0207571-ff5b-4bbf-a540-07079bd21d75/y2c4/publication-web-resources/pdf/scriptui-2-13-f-2017.pdf#page=103
-.. _page 104 in scriptui PDF: https://adobeindd.com/view/publications/a0207571-ff5b-4bbf-a540-07079bd21d75/y2c4/publication-web-resources/pdf/scriptui-2-13-f-2017.pdf#page=104
-.. _scriptui-2-13-f-2017: https://adobeindd.com/view/publications/a0207571-ff5b-4bbf-a540-07079bd21d75/y2c4/publication-web-resources/pdf/scriptui-2-13-f-2017.pdf#page=16
 
 Qued
-~~~~
+----
 
 -  BeatManager: Include bpm edittext and rate dropdownlist directly in
    class and not in buildGUI function.
@@ -142,7 +137,7 @@ Qued
 -  Create marker label: **1 . . . 4 . . . 8 . . . 12** and **1 . . . 1 .
    . . 1 . . . 1**
 -  Check javascript compatibility ES5 and ES6, new after effects version
-   `legacy-and-extend-script-engine`_
+   `legacy-and-extend-script-engine: <https://helpx.adobe.com/after-effects/using/legacy-and-extend-script-engine.html>`_
 -  New class Keyframes: manage console input
 -  app.beep(): Sound?
 -  MouseEvent: event.altKey, ctrlKey, metaKey, shiftKey;
@@ -158,14 +153,12 @@ Qued
 -  Quantize keyframes
 
 Done
-~~~~
+----
 
--  Check AE Version, make improvements and make backward compatible
-
-.. _legacy-and-extend-script-engine: https://helpx.adobe.com/after-effects/using/legacy-and-extend-script-engine.html
+- Check AE Version, make improvements and make backward compatible
 
 EventHandling
-~~~~~~~~~~~~~
+-------------
 
 .. code-block:: javascript
 

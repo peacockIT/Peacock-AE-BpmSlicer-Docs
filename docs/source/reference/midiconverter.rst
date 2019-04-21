@@ -81,11 +81,15 @@ range between C3 - B3, otherwise the notes won‘t be recognized. Note
 that the notes of C3 are placed onto videotrack 1, the notes of C#3 onto
 videotrack 2 and so on.
 
-  :C3:  videotrack 1
-  :C#3:  videotrack 2
-  :D3:  videotrack 3
-  :...:  ...
-  :B3:  videotrack 12
+=====  ============
+Note   Track
+=====  ============
+C3     videotrack 1
+C#3    videotrack 2
+D3     videotrack 3
+...    ...
+B3     videotrack 12
+=====  ============
 
 .. image:: ../_static/MidinoteRange.png
 
