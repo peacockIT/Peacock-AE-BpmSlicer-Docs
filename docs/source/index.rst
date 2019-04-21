@@ -13,13 +13,25 @@ Quick References
 
 
 .. toctree::
-   :caption: Documentation
-   :maxdepth: 2
+    :caption: Getting Started
+    :maxdepth: 2
 
-   intro
-   Installation <getting_started/install>
-   Getting Started <getting_started/getting_started>
-   Reference <reference/reference>
+    intro
+    Installation <getting_started/install>
+    Getting Started <getting_started/getting_started>
+
+
+.. toctree::
+    :caption: Reference
+    :maxdepth: 2
+
+    generel
+    slices
+    markers
+    transitions
+    settings
+    random
+    console
 
 
 .. toctree::

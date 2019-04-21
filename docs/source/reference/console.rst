@@ -93,7 +93,8 @@ A list of all tab shortcut code snippets.
 ``bpm``
     .. code-block:: javascript
 
-       beatManager.setBpm(166); beatManager.getBpm();
+       beatManager.setBpm(166);
+       beatManager.getBpm();
 
 ``beatRate``
     .. code-block:: javascript
@@ -114,7 +115,6 @@ A list of all tab shortcut code snippets.
        var counter = 0;
        for(var i=0; i<comp.selectedLayers.length; i++){
          var layer = comp.selectedLayers[i];
-         if(re.test(layer.name))
          if(re.test(layer.name)){
            layer.name = name + "_" + i;
            counter++;
