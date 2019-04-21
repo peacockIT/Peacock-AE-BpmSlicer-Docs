@@ -85,24 +85,24 @@ Shortcuts
 Tabcompletion
 -------------
 :for: for(var i=0; i<comp.selectedLayers.length; i++){
-         var layer = comp.selectedLayers[i];
-         log.appendLog(i + " " + layer.name);
+      var layer = comp.selectedLayers[i];
+      log.appendLog(i + " " + layer.name);
       }
 :fors: for(var i=0; i<slices.slices.length; i++) {
-         var slice = slices.slices[i];
-         log.appendLog(i + " " + slice.getInPoint());
+       var slice = slices.slices[i];
+       log.appendLog(i + " " + slice.getInPoint());
        }
 :form: for(var i=0; i<markers.markers.length; i++) {
-         var marker = markers.markers[i];
-         log.appendLog(i + " " + marker.getTime());
+       var marker = markers.markers[i];
+       log.appendLog(i + " " + marker.getTime());
        }
 :if: if(markers.markers.length > 10) {
-       log.appendLog("More than 10 markers exist");
+     log.appendLog("More than 10 markers exist");
      }
 :if else: if(markers.markers.length > 10) {
-              log.appendLog("More than 10 markers exist");
+          log.appendLog("More than 10 markers exist");
           }else {
-              log.appendLog("Less than 10 (or equal) markers exist");
+          log.appendLog("Less than 10 (or equal) markers exist");
           }
 
 
@@ -119,15 +119,15 @@ Shortcuts
                  layer.selected = true;
               }
 -bpm          log.text = beatManager.calculateBeatRate(beatManager.getBpm(), "1/4");
-beatRate      log.text = beatManager.calculateBeatRate(beatManager.getBpm(), "1/4");
-status        log.text = markers.markers.length + " markers; ";\nlog.text += slices.slices.length + " slices";
-rename        var name = "newName"; re = /^name/;
+-beatRate      log.text = beatManager.calculateBeatRate(beatManager.getBpm(), "1/4");
+-status        log.text = markers.markers.length + " markers; ";\nlog.text += slices.slices.length + " slices";
+-rename        var name = "newName"; re = /^name/;
               for(var i=0; i<comp.selectedLayers.length; i++){
                  var layer = comp.selectedLayers[i];
                  if(re.test(layer.name))
                  layer.name = name + "_" + i;
               }
-createfile    var text = "";
+-createfile    var text = "";
               var filePath = Folder.desktop.fullName + "/_default.txt";
               var file = new File(filePath);
               if(file === null)
@@ -138,7 +138,7 @@ createfile    var text = "";
 
 Tabcompletion
 -------------
-for   for(var i=0; i<comp.selectedLayers.length; i++){
+-for   for(var i=0; i<comp.selectedLayers.length; i++){
          var layer = comp.selectedLayers[i];
          log.appendLog(i + " " + layer.name);
       }
@@ -146,14 +146,14 @@ for   for(var i=0; i<comp.selectedLayers.length; i++){
          var slice = slices.slices[i];
          log.appendLog(i + " " + slice.getInPoint());
        }
-form   for(var i=0; i<markers.markers.length; i++) {
+-form   for(var i=0; i<markers.markers.length; i++) {
          var marker = markers.markers[i];
          log.appendLog(i + " " + marker.getTime());
        }
-if   if(markers.markers.length > 10) {
+-if   if(markers.markers.length > 10) {
        log.appendLog("More than 10 markers exist");
      }
-if else   if(markers.markers.length > 10) {
+-if else   if(markers.markers.length > 10) {
               log.appendLog("More than 10 markers exist");
           }else {
               log.appendLog("Less than 10 (or equal) markers exist");
@@ -175,29 +175,36 @@ Tabcompletion
 
       .. code-block:: javascript
          :caption: for
+
          for(var i=0; i<comp.selectedLayers.length; i++){
            var layer = comp.selectedLayers[i];
            log.appendLog(i + " " + layer.name);
          }
+
       .. code-block:: javascript
          :caption: fors
+
          for(var i=0; i<slices.slices.length; i++) {
            var slice = slices.slices[i];
            log.appendLog(i + " " + slice.getInPoint());
          }
       .. code-block:: javascript
          :caption: form
+
          for(var i=0; i<markers.markers.length; i++) {
            var marker = markers.markers[i];
            log.appendLog(i + " " + marker.getTime());
          }
+
       .. code-block:: javascript
          :caption: if
+
          if(markers.markers.length > 10) {
            log.appendLog("More than 10 markers exist");
          }
       .. code-block:: javascript
          :caption: if else
+
          if(markers.markers.length > 10) {
            log.appendLog("More than 10 markers exist");
          }else {
@@ -223,18 +230,22 @@ Shortcuts
 
 .. code-block:: javascript
   :caption: bpm
+
   log.text = beatManager.calculateBeatRate(beatManager.getBpm(), "1/4");
 
 .. code-block:: javascript
   :caption: beatRate
+
   log.text = beatManager.calculateBeatRate(beatManager.getBpm(), "1/4");
 
 .. code-block:: javascript
   :caption: status
+
   log.text = markers.markers.length + " markers; ";\nlog.text += slices.slices.length + " slices";
 
 .. code-block:: javascript
   :caption: rename
+
   var name = "newName"; re = /^name/;
   for(var i=0; i<comp.selectedLayers.length; i++){
     var layer = comp.selectedLayers[i];
@@ -244,6 +255,7 @@ Shortcuts
 
 .. code-block:: javascript
   :caption: createfile
+
   var text = "";
   var filePath = Folder.desktop.fullName + "/_default.txt";
   var file = new File(filePath);
@@ -260,12 +272,15 @@ Tabcompletion
 -------------
 .. code-block:: javascript
   :caption: for
+
   for(var i=0; i<comp.selectedLayers.length; i++){
     var layer = comp.selectedLayers[i];
     log.appendLog(i + " " + layer.name);
   }
+
 .. code-block:: javascript
   :caption: fors
+
   for(var i=0; i<slices.slices.length; i++) {
     var slice = slices.slices[i];
     log.appendLog(i + " " + slice.getInPoint());
@@ -273,15 +288,19 @@ Tabcompletion
 
 .. code-block:: javascript
   :caption: form
+
   for(var i=0; i<markers.markers.length; i++) {
     var marker = markers.markers[i];
     log.appendLog(i + " " + marker.getTime());
   }
+
 .. code-block:: javascript
   :caption: if
+
   if(markers.markers.length > 10) {
     log.appendLog("More than 10 markers exist");
   }
+
 .. code-block:: javascript
   :caption: if else
   if(markers.markers.length > 10) {
