@@ -6,12 +6,13 @@
 -  `Pandoc <https://pandoc.org/try/>`_
 -  `Sphinx-rtd-theme.readthedocs.io <https://sphinx-rtd-theme.readthedocs.io/en/stable/index.html>`_
 -  `Notex <https://www.notex.ch/editor>`_
-..-  ` <>`_
-..-  ` <>`_
-..-  ` <>`_
+-  `RST Cheatsheet <https://github.com/ralsina/rst-cheatsheet/blob/master/rst-cheatsheet.rst>`_
+-  |location_link|
 
 
+.. |location_link| raw:: html
 
+   <a href="https://github.com/ralsina/rst-cheatsheet/blob/master/rst-cheatsheet.rst" target="_blank">RST Cheatsheet</a>
 
 .. Indices and tables
 .. ==================
