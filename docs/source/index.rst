@@ -25,13 +25,13 @@ Quick References
     :caption: Reference
     :maxdepth: 2
 
-    generel
-    slices
-    markers
-    transitions
-    settings
-    random
-    console
+    reference/generel
+    reference/slices
+    reference/markers
+    reference/transitions
+    reference/settings
+    reference/random
+    reference/console
 
 
 .. toctree::
