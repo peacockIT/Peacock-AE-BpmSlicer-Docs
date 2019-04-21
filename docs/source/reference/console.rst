@@ -1,5 +1,6 @@
+***********
 The Console
-===========
+***********
 
 .. contents:: Table of Contents
 
@@ -66,20 +67,22 @@ Shortcuts
 Tabcompletion List
 ^^^^^^^^^^^^^^^^^
 
+.. code-block:: javascript
+    :caption: for
+
+    for(var i=0; i<comp.selectedLayers.length; i++){
+      var layer = comp.selectedLayers[i];
+      log.appendLog(i + " " + layer.name);
+    }
+
+
 - for
-      .. code:: javascript
+      .. code-block:: javascript
          :caption: for
          for(var i=0; i<comp.selectedLayers.length; i++){
             var layer = comp.selectedLayers[i];
             log.appendLog(i + " " + layer.name);
          }
-- for2
-      .. code:: javascript
-         :caption: for
-         for(var i=0; i<comp.selectedLayers.length; i++){
-            var layer = comp.selectedLayers[i];
-            log.appendLog(i + " " + layer.name);
-         }
-  
+
 
 

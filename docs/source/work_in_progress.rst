@@ -1,6 +1,6 @@
-================
+****************
 Work in Progress
-================
+****************
 
 .. contents:: Table of Contents
 
@@ -69,7 +69,7 @@ In Progress
     e1.addEventListener ("keydown", function (k) {handle_key (k, this);});
     e2.addEventListener ("keydown", function (k) {handle_key (k, this);});
 
--  
+-
 -  `addEventListener() estk.aenhancers.com`_
 -  `Understanding capturingPhase`_
 

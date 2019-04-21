@@ -1,5 +1,6 @@
+*********
 Reference
-=========
+*********
 
 This section contains concise technincal information
 about the BpmSlicer script.
@@ -10,4 +11,9 @@ about the BpmSlicer script.
     :maxdepth: 2
 
     generel
+    slices
+    markers
+    transitions
+    settings
+    random
     console

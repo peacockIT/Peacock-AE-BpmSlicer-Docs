@@ -1,6 +1,6 @@
-===============
+***************
 Troubleshooting
-===============
+***************
 
 .. contents:: Table of Contents
 
