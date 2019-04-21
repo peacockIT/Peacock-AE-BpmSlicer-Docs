@@ -28,41 +28,42 @@ Tabcompletion
 for
     .. code-block:: javascript
 
-    for(var i=0; i<comp.selectedLayers.length; i++){
-      var layer = comp.selectedLayers[i];
-      log.appendLog(i + " " + layer.name);
-    }
+      for(var i=0; i<comp.selectedLayers.length; i++){
+        var layer = comp.selectedLayers[i];
+        log.appendLog(i + " " + layer.name);
+      }
 
 fors
-      .. code-block:: javascript
+    .. code-block:: javascript
 
-        for(var i=0; i<slices.slices.length; i++) {
-          var slice = slices.slices[i];
-          log.appendLog(i + " " + slice.getInPoint());
-        }
+      for(var i=0; i<slices.slices.length; i++) {
+        var slice = slices.slices[i];
+        log.appendLog(i + " " + slice.getInPoint());
+      }
 
-      :guilabel:`form` tst
-      .. code-block:: javascript
+form
+    .. code-block:: javascript
 
-        for(var i=0; i<markers.markers.length; i++) {
-          var marker = markers.markers[i];
-          log.appendLog(i + " " + marker.getTime());
-        }
+      for(var i=0; i<markers.markers.length; i++) {
+        var marker = markers.markers[i];
+        log.appendLog(i + " " + marker.getTime());
+      }
 
-      .. code-block:: javascript
-        :caption: if
+if
+    .. code-block:: javascript
 
-        if(markers.markers.length > 10) {
-          log.appendLog("More than 10 markers exist");
-        }
-      .. code-block:: javascript
-        :caption: if else
+      if(markers.markers.length > 10) {
+        log.appendLog("More than 10 markers exist");
+      }
 
-        if(markers.markers.length > 10) {
-          log.appendLog("More than 10 markers exist");
-        }else {
-          log.appendLog("Less than 10 (or equal) markers exist");
-        }
+if else
+    .. code-block:: javascript
+
+      if(markers.markers.length > 10) {
+        log.appendLog("More than 10 markers exist");
+      }else {
+        log.appendLog("Less than 10 (or equal) markers exist");
+      }
 
 
 Shortcuts
@@ -70,7 +71,7 @@ Shortcuts
 
 - A list of all tab shortcut code snippets
 
-      - select
+select
       .. code-block:: javascript
 
         for(var i=0; i<comp.selectedLayers.length;i++){
@@ -78,25 +79,23 @@ Shortcuts
           layer.selected = true;
         }
 
-      - bpm
+bpm
       .. code-block:: javascript
 
         log.text = beatManager.calculateBeatRate(beatManager.getBpm(), "1/4");
 
-      - beatRate
+beatRate
       .. code-block:: javascript
 
         log.text = beatManager.calculateBeatRate(beatManager.getBpm(), "1/4");
 
-      - status
+status
       .. code-block:: javascript
-        :caption: status
 
         log.text = markers.markers.length + " markers; ";\nlog.text += slices.slices.length + " slices";
 
-      - rename
+rename
       .. code-block:: javascript
-        :caption: rename
 
         var name = "newName"; re = /^name/;
         for(var i=0; i<comp.selectedLayers.length; i++){
@@ -105,9 +104,8 @@ Shortcuts
           layer.name = name + "_" + i;
         }
 
-      - createfile
+``createfile``
       .. code-block:: javascript
-        :caption: createfile
 
         var text = "";
         var filePath = Folder.desktop.fullName + "/_default.txt";
