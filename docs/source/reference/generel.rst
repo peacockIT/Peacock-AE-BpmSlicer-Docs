@@ -117,6 +117,6 @@ second with means by an scheduled task from after effects.
 
 .. Note:: This only works if the script runs as a panel (If the script is launched as a window the update function doesn‘t work.
 
-   Mac: ``Option+Shift+Click`` Win ``Alt+Shift+Click``: All scheduled tasks that are running are getting closed.
+Mac: ``Option+Shift+Click`` Win ``Alt+Shift+Click``: All scheduled tasks that are running are getting closed.
 
 
