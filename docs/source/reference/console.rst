@@ -24,39 +24,44 @@ Executable javascript
 
 Tabcompletion
 -------------
+A list of all tab completion code snippets.
 
-for
+``for``
     .. code-block:: javascript
 
+      aeHelper.selectAllLayers(comp);
       for(var i=0; i<comp.selectedLayers.length; i++){
         var layer = comp.selectedLayers[i];
         log.appendLog(i + " " + layer.name);
       }
 
-fors
+``fors``
     .. code-block:: javascript
 
       for(var i=0; i<slices.slices.length; i++) {
         var slice = slices.slices[i];
         log.appendLog(i + " " + slice.getInPoint());
       }
+      slices.slices.length;
 
-form
+``form``
     .. code-block:: javascript
 
       for(var i=0; i<markers.markers.length; i++) {
         var marker = markers.markers[i];
         log.appendLog(i + " " + marker.getTime());
       }
+      markers.markers.length;
 
-if
+``if``
     .. code-block:: javascript
 
       if(markers.markers.length > 10) {
         log.appendLog("More than 10 markers exist");
       }
+      (markers.markers.length > 10);
 
-if else
+``if else``
     .. code-block:: javascript
 
       if(markers.markers.length > 10) {
@@ -64,56 +69,87 @@ if else
       }else {
         log.appendLog("Less than 10 (or equal) markers exist");
       }
+      (markers.markers.length > 10);
 
 
 Shortcuts
 ---------
 
-- A list of all tab shortcut code snippets
+A list of all tab shortcut code snippets.
 
-select
-      .. code-block:: javascript
+``select``
+    .. code-block:: javascript
 
-        for(var i=0; i<comp.selectedLayers.length;i++){
-          var layer = comp.selectedLayers[i]; if(layer.name != "")
+      var counter = 0;
+      for(var i=0; i<comp.selectedLayers.length;i++){
+        var layer = comp.selectedLayers[i];
+        if(layer.name != ""){
           layer.selected = true;
         }
+        counter++;
+      }
+      counter;
 
-bpm
-      .. code-block:: javascript
+``bpm``
+    .. code-block:: javascript
 
-        log.text = beatManager.calculateBeatRate(beatManager.getBpm(), "1/4");
+       beatManager.setBpm(166); beatManager.getBpm();
 
-beatRate
-      .. code-block:: javascript
+``beatRate``
+    .. code-block:: javascript
 
-        log.text = beatManager.calculateBeatRate(beatManager.getBpm(), "1/4");
+       beatManager.calculateBeatRate(120, "1/4");
 
-status
-      .. code-block:: javascript
+``status``
+    .. code-block:: javascript
 
-        log.text = markers.markers.length + " markers; ";\nlog.text += slices.slices.length + " slices";
+       markers.markers.length + " markers; " + slices.slices.length + " slices";
 
-rename
-      .. code-block:: javascript
+``rename``
+    .. code-block:: javascript
 
-        var name = "newName"; re = /^name/;
-        for(var i=0; i<comp.selectedLayers.length; i++){
-          var layer = comp.selectedLayers[i];
-          if(re.test(layer.name))
-          layer.name = name + "_" + i;
-        }
+       var name = "newName";
+       re = /^newName/;
+       aeHelper.selectAllLayers(comp);
+       var counter = 0;
+       for(var i=0; i<comp.selectedLayers.length; i++){
+         var layer = comp.selectedLayers[i];
+         if(re.test(layer.name))
+         if(re.test(layer.name)){
+           layer.name = name + "_" + i;
+           counter++;
+         }
+       }
+       counter;
 
 ``createfile``
-      .. code-block:: javascript
+    .. code-block:: javascript
 
-        var text = "";
-        var filePath = Folder.desktop.fullName + "/_default.txt";
-        var file = new File(filePath);
-        if(file === null)
-          file = File.saveDialog("Choose a txt file","*.txt*", filePath);
-        file.open("w");
-        file.writeln(text.toString());
-        file.close();
+       var text = "";
+       var filePath = Folder.desktop.fullName + "/_default.txt";
+       var file = new File(filePath);
+       //var file = File.saveDialog("Choose a txt file","*.txt*", Folder.desktop);
+       if(file === null)
+         file = File.saveDialog("Choose a txt file","*.txt*", filePath);
+       file.open("w");
+       file.writeln(text.toString());
+       file.close();
+
+
+
+Peacock Commands
+----------------
+
+A list of all tab peacock commands code snippets.
+
+``marker``
+    .. code-block:: javascript
+
+      markers.addCompMarker(comp, new Marker(10, { duration:0.0 }));
+
+``slice``
+    .. code-block:: javascript
+
+       slices.addCompSlice(comp, new Slice(5,10, { velocity:1.0 }));
 
 
