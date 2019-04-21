@@ -19,23 +19,40 @@
 
 
 .. |After_Effects_Scripting_Guide| raw:: html
-  <a href="http://docs.aenhancers.com/" target="_blank">After Effects Scripting Guide</a>
+
+   <a href="http://docs.aenhancers.com/" target="_blank">After Effects Scripting Guide</a>
+
 .. |The_Javascript_Tools_Guide| raw:: html
-  <a href="http://estk.aenhancers.com/index.html" target="_blank">The Javascript Tools Guide</a>
+
+   <a href="http://estk.aenhancers.com/index.html" target="_blank">The Javascript Tools Guide</a>
+
 .. |Beginning_ScriptUI| raw:: html
-  <a href="https://adobeindd.com/view/publications/a0207571-ff5b-4bbf-a540-07079bd21d75/y2c4/publication-web-resources/pdf/scriptui-2-13-f-2017.pdf" target="_blank">Beginning ScriptUI 2-13-f-2017</a>
+
+   <a href="https://adobeindd.com/view/publications/a0207571-ff5b-4bbf-a540-07079bd21d75/y2c4/publication-web-resources/pdf/scriptui-2-13-f-2017.pdf" target="_blank">Beginning ScriptUI 2-13-f-2017</a>
+
 .. |Markup_Cheatsheet| raw:: html
-  <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" target="_blank">Markup Cheatsheet for Readme.md</a>
+
+   <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" target="_blank">Markup Cheatsheet for Readme.md</a>
+
 .. |Socrates| raw:: html
-  <a href="http://socrates.io/#Mu4oN9a" target="_blank">Socrates view markdown</a>
+
+   <a href="http://socrates.io/#Mu4oN9a" target="_blank">Socrates view markdown</a>
+
 .. |Pandoc| raw:: html
-  <a href="https://pandoc.org/try/" target="_blank">Pandoc</a>
+
+   <a href="https://pandoc.org/try/" target="_blank">Pandoc</a>
+
 .. |Sphinx-rtd-theme| raw:: html
-  <a href="https://sphinx-rtd-theme.readthedocs.io/en/stable/index.html" target="_blank">Sphinx-rtd-theme.readthedocs.io</a>
+
+   <a href="https://sphinx-rtd-theme.readthedocs.io/en/stable/index.html" target="_blank">Sphinx-rtd-theme.readthedocs.io</a>
+
 .. |Notex| raw:: html
-  <a href="https://www.notex.ch/editor" target="_blank">Notex</a>
+
+   <a href="https://www.notex.ch/editor" target="_blank">Notex</a>
+
 .. |RST_Cheatsheet| raw:: html
-  <a href="https://github.com/ralsina/rst-cheatsheet/blob/master/rst-cheatsheet.rst" target="_blank">RST Cheatsheet</a>
+
+   <a href="https://github.com/ralsina/rst-cheatsheet/blob/master/rst-cheatsheet.rst" target="_blank">RST Cheatsheet</a>
 
 .. Indices and tables
 .. ==================
