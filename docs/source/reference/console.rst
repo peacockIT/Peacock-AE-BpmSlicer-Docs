@@ -115,7 +115,7 @@ Second list level
 Tabcompletion
 -------------
 - A list of all tab completion snippets
-
+      - for
       .. code-block:: javascript
         :caption: for
 
@@ -164,30 +164,31 @@ Shortcuts
 ---------
 
 - A list of all tab shortcut code snippets
-
+      - select
       .. code-block:: javascript
-        :caption: select
 
         for(var i=0; i<comp.selectedLayers.length;i++){
           var layer = comp.selectedLayers[i]; if(layer.name != "")
           layer.selected = true;
         }
 
+      - bpm
       .. code-block:: javascript
-        :caption: bpm
 
         log.text = beatManager.calculateBeatRate(beatManager.getBpm(), "1/4");
 
+      - beatRate
       .. code-block:: javascript
-        :caption: beatRate
 
         log.text = beatManager.calculateBeatRate(beatManager.getBpm(), "1/4");
 
+      - status
       .. code-block:: javascript
         :caption: status
 
         log.text = markers.markers.length + " markers; ";\nlog.text += slices.slices.length + " slices";
 
+      - rename
       .. code-block:: javascript
         :caption: rename
 
@@ -198,6 +199,7 @@ Shortcuts
           layer.name = name + "_" + i;
         }
 
+      - createfile
       .. code-block:: javascript
         :caption: createfile
 

@@ -1,19 +1,19 @@
--  `After Effects Scripting Guide <http://docs.aenhancers.com/>`_
--  `The Javascript Tools Guide <http://estk.aenhancers.com/index.html>`_
--  `Beginning ScriptUI 2-13-f-2017 <https://adobeindd.com/view/publications/a0207571-ff5b-4bbf-a540-07079bd21d75/y2c4/publication-web-resources/pdf/scriptui-2-13-f-2017.pdf>`_
--  `Markup Cheatsheet for Readme.md <https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet>`_
--  `Socrates view markdown <http://socrates.io/#Mu4oN9a>`_
--  `Pandoc <https://pandoc.org/try/>`_
--  `Sphinx-rtd-theme.readthedocs.io <https://sphinx-rtd-theme.readthedocs.io/en/stable/index.html>`_
--  `Notex <https://www.notex.ch/editor>`_
--  `RST Cheatsheet <https://github.com/ralsina/rst-cheatsheet/blob/master/rst-cheatsheet.rst>`_
+.. -  `After Effects Scripting Guide <http://docs.aenhancers.com/>`_
+.. -  `The Javascript Tools Guide <http://estk.aenhancers.com/index.html>`_
+.. -  `Beginning ScriptUI 2-13-f-2017 <https://adobeindd.com/view/publications/a0207571-ff5b-4bbf-a540-07079bd21d75/y2c4/publication-web-resources/pdf/scriptui-2-13-f-2017.pdf>`_
+.. -  `Markup Cheatsheet for Readme.md <https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet>`_
+.. -  `Socrates view markdown <http://socrates.io/#Mu4oN9a>`_
+.. -  `Pandoc <https://pandoc.org/try/>`_
+.. -  `Sphinx-rtd-theme.readthedocs.io <https://sphinx-rtd-theme.readthedocs.io/en/stable/index.html>`_
+.. -  `Notex <https://www.notex.ch/editor>`_
+.. -  `RST Cheatsheet <https://github.com/ralsina/rst-cheatsheet/blob/master/rst-cheatsheet.rst>`_
 -  |After_Effects_Scripting_Guide|
 -  |The_Javascript_Tools_Guide|
 -  |Beginning_ScriptUI|
 -  |Markup_Cheatsheet|
 -  |Socrates|
 -  |Pandoc|
--  |Sphinx|
+-  |Sphinx-rtd-theme|
 -  |Notex|
 -  |RST_Cheatsheet|
 
