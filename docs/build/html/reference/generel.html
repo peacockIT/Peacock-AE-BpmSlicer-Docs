@@ -1,0 +1,377 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Generel &mdash; BpmSlicer Documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script type="text/javascript" src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Slices" href="slices.html" />
+    <link rel="prev" title="Getting Started" href="../getting_started/getting_started.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search"  style="background: #2980B9" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> BpmSlicer
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Getting Started</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../intro.html">About This Documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../getting_started/install.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../getting_started/getting_started.html">Getting Started</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Reference</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Generel</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#bpm">Bpm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#bars">Bars</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#select-workarea">Select Workarea</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#tools-for-selected-layer-s">Tools for selected Layer/s</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#move-back">move back</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#move-forth">move forth</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#arrange-layer-s">Arrange Layer/s</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#randomize-selection">Randomize Selection</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#foist">Foist</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#load-txt">Load Txt</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#save-txt">Save Txt</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#preview">Preview</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="slices.html">Slices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="markers.html">Markers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="transitions.html">Transitions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="settings.html">Settings</a></li>
+<li class="toctree-l1"><a class="reference internal" href="random.html">Random</a></li>
+<li class="toctree-l1"><a class="reference internal" href="console.html">The Console</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Midiconverter</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="midiconverter.html">Midiconverter</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Troubleshooting</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../troubleshooting.html">Troubleshooting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../work_in_progress.html">Work in Progress</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">BpmSlicer</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>Generel</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/reference/generel.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="generel">
+<h1><a class="toc-backref" href="#id1">Generel</a><a class="headerlink" href="#generel" title="Permalink to this headline">¶</a></h1>
+<div class="contents topic" id="table-of-contents">
+<p class="topic-title first">Table of Contents</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#generel" id="id1">Generel</a></p>
+<ul>
+<li><p><a class="reference internal" href="#bpm" id="id2">Bpm</a></p></li>
+<li><p><a class="reference internal" href="#bars" id="id3">Bars</a></p></li>
+<li><p><a class="reference internal" href="#select-workarea" id="id4">Select Workarea</a></p>
+<ul>
+<li><p><a class="reference internal" href="#tools-for-selected-layer-s" id="id5">Tools for selected Layer/s</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#move-back" id="id6">move back</a></p></li>
+<li><p><a class="reference internal" href="#move-forth" id="id7">move forth</a></p></li>
+<li><p><a class="reference internal" href="#arrange-layer-s" id="id8">Arrange Layer/s</a></p></li>
+<li><p><a class="reference internal" href="#randomize-selection" id="id9">Randomize Selection</a></p></li>
+<li><p><a class="reference internal" href="#foist" id="id10">Foist</a></p></li>
+<li><p><a class="reference internal" href="#load-txt" id="id11">Load Txt</a></p></li>
+<li><p><a class="reference internal" href="#save-txt" id="id12">Save Txt</a></p></li>
+<li><p><a class="reference internal" href="#preview" id="id13">Preview</a></p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="bpm">
+<h2><a class="toc-backref" href="#id2">Bpm</a><a class="headerlink" href="#bpm" title="Permalink to this headline">¶</a></h2>
+<p>Set the bpm rate of the song you want to edit your videos to. Each time
+the value is changed a new sliceArray and a new markerArray is created
+with slices and markers from 0 to the duration of the active
+composition. If no composition is selected slices and markers will be
+created from 0 to 60 seconds.</p>
+</div>
+<div class="section" id="bars">
+<h2><a class="toc-backref" href="#id3">Bars</a><a class="headerlink" href="#bars" title="Permalink to this headline">¶</a></h2>
+<p>Set bars in order to determine how many markers are created when
+creating markers. Each time the value is changed a new sliceArray and a
+new markerArray is created with slices and markers from 0 to the
+duration of the active composition. If no composition is selected slices
+and markers will be created from 0 to 60 seconds.</p>
+</div>
+<div class="section" id="select-workarea">
+<h2><a class="toc-backref" href="#id4">Select Workarea</a><a class="headerlink" href="#select-workarea" title="Permalink to this headline">¶</a></h2>
+<p>Select the workarea to which all actions of this script are applied.</p>
+<blockquote>
+<div><dl class="simple">
+<dt>Comp Workarea</dt><dd><p>The workarea is the workarea of the active composition.</p>
+</dd>
+<dt>Layer in/out</dt><dd><p>The workareas in and out points are the in and out points of the selected layer. If multiple layers are selected, the lowest in point and the highest out point of all layers are considered.</p>
+</dd>
+<dt>Comp Duration</dt><dd><p>The workarea starts at 0 and ends with the duration of the active composition.</p>
+</dd>
+</dl>
+</div></blockquote>
+<div class="section" id="tools-for-selected-layer-s">
+<h3><a class="toc-backref" href="#id5">Tools for selected Layer/s</a><a class="headerlink" href="#tools-for-selected-layer-s" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
+<div class="section" id="move-back">
+<h2><a class="toc-backref" href="#id6">move back</a><a class="headerlink" href="#move-back" title="Permalink to this headline">¶</a></h2>
+<p>Moves the selected layer according to the bpm and bars value to the left.</p>
+</div>
+<div class="section" id="move-forth">
+<h2><a class="toc-backref" href="#id7">move forth</a><a class="headerlink" href="#move-forth" title="Permalink to this headline">¶</a></h2>
+<p>Moves the selected layer according to the bpm and bars value to the right.</p>
+</div>
+<div class="section" id="arrange-layer-s">
+<h2><a class="toc-backref" href="#id8">Arrange Layer/s</a><a class="headerlink" href="#arrange-layer-s" title="Permalink to this headline">¶</a></h2>
+<p>All selected layers are getting arranged like a stairway according to
+the currently set bpm and bars value.</p>
+</div>
+<div class="section" id="randomize-selection">
+<h2><a class="toc-backref" href="#id9">Randomize Selection</a><a class="headerlink" href="#randomize-selection" title="Permalink to this headline">¶</a></h2>
+<p>All selected layers are getting randomly deselected.</p>
+</div>
+<div class="section" id="foist">
+<h2><a class="toc-backref" href="#id10">Foist</a><a class="headerlink" href="#foist" title="Permalink to this headline">¶</a></h2>
+<p>For all selected layers:</p>
+<ul>
+<li><p>The function tries to find a new randomly choosen starttime for the layer</p>
+<blockquote>
+<div><div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="nx">layer</span><span class="p">.</span><span class="nx">startTime</span> <span class="o">+=</span> <span class="p">(</span><span class="nb">Math</span><span class="p">.</span><span class="nx">random</span><span class="p">()</span> <span class="o">&lt;</span> <span class="mf">0.5</span><span class="p">)</span> <span class="o">?</span> <span class="nb">Math</span><span class="p">.</span><span class="nx">random</span><span class="p">()</span> <span class="o">*</span> <span class="mi">100</span> <span class="o">:</span> <span class="nb">Math</span><span class="p">.</span><span class="nx">random</span><span class="p">()</span> <span class="o">*</span> <span class="o">-</span><span class="mi">100</span><span class="p">;</span>
+</pre></div>
+</div>
+</div></blockquote>
+</li>
+<li><p>The function tries to find a new randomly choosen stretch value for the layer</p>
+<blockquote>
+<div><div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="nx">layer</span><span class="p">.</span><span class="nx">stretch</span> <span class="o">=</span> <span class="mi">200</span> <span class="o">*</span> <span class="nb">Math</span><span class="p">.</span><span class="nx">random</span><span class="p">()</span> <span class="nx">or</span> <span class="nx">layer</span><span class="p">.</span><span class="nx">stretch</span> <span class="o">=</span> <span class="mi">200</span> <span class="o">*</span> <span class="nb">Math</span><span class="p">.</span><span class="nx">random</span><span class="p">()</span> <span class="o">*</span> <span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span>
+</pre></div>
+</div>
+</div></blockquote>
+</li>
+</ul>
+<p>If the original in- and out-point of the layer have changed by setting
+the randomly choosen values</p>
+<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="p">(</span><span class="nx">origInPoint</span> <span class="o">!=</span> <span class="nx">layer</span><span class="p">.</span><span class="nx">inPoint</span> <span class="o">&amp;&amp;</span> <span class="nx">origOutPoint</span> <span class="o">!=</span> <span class="nx">layer</span><span class="p">.</span><span class="nx">outPoint</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>the function tries to find another starttime/stretch value for the layer
+and loops through this process as long as the condition is not true.</p>
+</div>
+<div class="section" id="load-txt">
+<h2><a class="toc-backref" href="#id11">Load Txt</a><a class="headerlink" href="#load-txt" title="Permalink to this headline">¶</a></h2>
+<p>Load a txt file that contains midi note on and off information and
+import them as slices into the sliceArray (The in points of the slices
+are getting added to the markerArray which could be added as markers to
+a layer or the composition by clicking the <code class="docutils literal notranslate"><span class="pre">Add</span></code> button).</p>
+</div>
+<div class="section" id="save-txt">
+<h2><a class="toc-backref" href="#id12">Save Txt</a><a class="headerlink" href="#save-txt" title="Permalink to this headline">¶</a></h2>
+<p>Save a txt file that contains all slices from the sliceArray.</p>
+</div>
+<div class="section" id="preview">
+<h2><a class="toc-backref" href="#id13">Preview</a><a class="headerlink" href="#preview" title="Permalink to this headline">¶</a></h2>
+<p>When the script launches, the display update function is turned off.</p>
+<blockquote>
+<div><p>Mac: <code class="docutils literal notranslate"><span class="pre">Option+Click</span></code> Win <code class="docutils literal notranslate"><span class="pre">Alt+Click</span></code>: An scheduled update function for the display is toggled on (or off).</p>
+</div></blockquote>
+<p>If the update function is running the preview area is updated each
+second with means by an scheduled task from after effects.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This only works if the script runs as a panel (If the script is launched as a window the update function doesn‘t work.</p>
+</div>
+<p>Mac: <code class="docutils literal notranslate"><span class="pre">Option+Shift+Click</span></code> Win <code class="docutils literal notranslate"><span class="pre">Alt+Shift+Click</span></code>: All scheduled tasks that are running are getting closed.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="slices.html" class="btn btn-neutral float-right" title="Slices" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="../getting_started/getting_started.html" class="btn btn-neutral float-left" title="Getting Started" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Daniel Kreth
+
+    </p>
+  </div> 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+    <!-- Theme Analytics -->
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-XXXXXXX-1', 'auto');
+    ga('send', 'pageview');
+    </script>
+
+    
+   
+
+</body>
+</html>

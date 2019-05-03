@@ -1,0 +1,387 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Midiconverter (external) &mdash; BpmSlicer Documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script type="text/javascript" src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Troubleshooting" href="../troubleshooting.html" />
+    <link rel="prev" title="The Console" href="console.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search"  style="background: #2980B9" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> BpmSlicer
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Getting Started</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../intro.html">About This Documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../getting_started/install.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../getting_started/getting_started.html">Getting Started</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Reference</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="generel.html">Generel</a></li>
+<li class="toctree-l1"><a class="reference internal" href="slices.html">Slices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="markers.html">Markers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="transitions.html">Transitions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="settings.html">Settings</a></li>
+<li class="toctree-l1"><a class="reference internal" href="random.html">Random</a></li>
+<li class="toctree-l1"><a class="reference internal" href="console.html">The Console</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Midiconverter</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Midiconverter</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#midi-converter-button">Midi converter button</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#bpm-editor">Bpm editor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#fps-editor">Fps editor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#clipboard">Clipboard</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#preparations">Preparations</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#song-preparation">Song preparation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#preparing-the-midi-clip">Preparing the midi clip</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#preparing-your-footage">Preparing your footage</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Troubleshooting</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../troubleshooting.html">Troubleshooting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../work_in_progress.html">Work in Progress</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">BpmSlicer</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>Midiconverter (external)</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/reference/midiconverter.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="midiconverter-external">
+<h1><a class="toc-backref" href="#id1">Midiconverter (external)</a><a class="headerlink" href="#midiconverter-external" title="Permalink to this headline">¶</a></h1>
+<div class="contents topic" id="table-of-contents">
+<p class="topic-title first">Table of Contents</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#midiconverter-external" id="id1">Midiconverter (external)</a></p>
+<ul>
+<li><p><a class="reference internal" href="#midi-converter-button" id="id2">Midi converter button</a></p></li>
+<li><p><a class="reference internal" href="#bpm-editor" id="id3">Bpm editor</a></p></li>
+<li><p><a class="reference internal" href="#fps-editor" id="id4">Fps editor</a></p></li>
+<li><p><a class="reference internal" href="#clipboard" id="id5">Clipboard</a></p>
+<ul>
+<li><p><a class="reference internal" href="#preparations" id="id6">Preparations</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#song-preparation" id="id7">Song preparation</a></p></li>
+<li><p><a class="reference internal" href="#preparing-the-midi-clip" id="id8">Preparing the midi clip</a></p></li>
+<li><p><a class="reference internal" href="#preparing-your-footage" id="id9">Preparing your footage</a></p></li>
+</ul>
+</li>
+</ul>
+</div>
+<img alt="../_images/midiconverter.png" src="../_images/midiconverter.png" />
+<div class="section" id="midi-converter-button">
+<h2><a class="toc-backref" href="#id2">Midi converter button</a><a class="headerlink" href="#midi-converter-button" title="Permalink to this headline">¶</a></h2>
+<p>The Midi converter interprets 12 note values in the range of C3 - B3.
+Please make sure that the midinotes are placed in exactly that range,
+otherwise the notes won‘t be recognized.</p>
+<p>The chosen .mid file is converted to a .txt file with a assigned
+videotrack a note-on and note-off value and a velocity value that can be
+imported by the Premiere Pro extension <code class="docutils literal notranslate"><span class="pre">BpmSlicer</span></code>.</p>
+<dl class="simple">
+<dt>for example:</dt><dd><ul class="simple">
+<li><p>1 0 2.5 0.5</p></li>
+<li><p>2 2.5 3.4 1.0</p></li>
+</ul>
+</dd>
+</dl>
+</div>
+<div class="section" id="bpm-editor">
+<h2><a class="toc-backref" href="#id3">Bpm editor</a><a class="headerlink" href="#bpm-editor" title="Permalink to this headline">¶</a></h2>
+<p>Before the midi clip is converted, a tempo event with the given ‚bpm‘
+rate is added to the midi clip.</p>
+<p>If the midi clip has a tempo event already and you want to use it
+instead of a new one, set the bpm value to <code class="docutils literal notranslate"><span class="pre">-1</span></code>.</p>
+<p>If the bpm editor is empty the default bpm value of 120 is used.</p>
+</div>
+<div class="section" id="fps-editor">
+<h2><a class="toc-backref" href="#id4">Fps editor</a><a class="headerlink" href="#fps-editor" title="Permalink to this headline">¶</a></h2>
+<p>The fps value (Frames per seconds) is only needed if you want to use the
+clipboard to copy keyframes directly onto one of After Effects layer
+properties. With help of the fps value the time of the midi note-on
+values can be transformed to frame values.</p>
+</div>
+<div class="section" id="clipboard">
+<h2><a class="toc-backref" href="#id5">Clipboard</a><a class="headerlink" href="#clipboard" title="Permalink to this headline">¶</a></h2>
+<p>The velocity values of all midi note-on messages are mapped to the range
+of 0.0 - 1.0 and copied to the systems clipboard so that you can simply
+paste the values as keyframes onto a selected <code class="docutils literal notranslate"><span class="pre">expression</span> <span class="pre">slider</span></code>
+property in After Effects. A <code class="docutils literal notranslate"><span class="pre">expression</span> <span class="pre">slider</span></code> with those keyframes
+can then be used to manipulate different properties and effects.</p>
+<div class="section" id="preparations">
+<h3><a class="toc-backref" href="#id6">Preparations</a><a class="headerlink" href="#preparations" title="Permalink to this headline">¶</a></h3>
+<p>NOTE: The following description is confusing because it describs the preparation
+for the premier pro version of the BpmSlicer which is not yet finished.</p>
+<p>Before you can take full advantage of the functionality of the BpmSlicer
+you need to prepare your footage as follows.</p>
+</div>
+</div>
+<div class="section" id="song-preparation">
+<h2><a class="toc-backref" href="#id7">Song preparation</a><a class="headerlink" href="#song-preparation" title="Permalink to this headline">¶</a></h2>
+<p>You have to ensure that the following two conditions are met: You need
+to know the exact bpm value of the song you want to work with and set
+this value in the bpm input field. You need to make sure that the 1st
+beat of the song sits exactly at the 0 point in time. Some songs may not
+have an intro that fits the bpm rate of the actual song, then you need
+to find the first beat and place it accordingly. If you have the exact
+bpm rate of the song then it won‘t be too difficult to make it fit.</p>
+</div>
+<div class="section" id="preparing-the-midi-clip">
+<h2><a class="toc-backref" href="#id8">Preparing the midi clip</a><a class="headerlink" href="#preparing-the-midi-clip" title="Permalink to this headline">¶</a></h2>
+<p>Please make sure that the midinotes in the midi file are placed in the
+range between C3 - B3, otherwise the notes won‘t be recognized. Note
+that the notes of C3 are placed onto videotrack 1, the notes of C#3 onto
+videotrack 2 and so on.</p>
+<table class="docutils align-center">
+<colgroup>
+<col style="width: 28%" />
+<col style="width: 72%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Note</p></th>
+<th class="head"><p>Track</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>C3</p></td>
+<td><p>videotrack 1</p></td>
+</tr>
+<tr class="row-odd"><td><p>C#3</p></td>
+<td><p>videotrack 2</p></td>
+</tr>
+<tr class="row-even"><td><p>D3</p></td>
+<td><p>videotrack 3</p></td>
+</tr>
+<tr class="row-odd"><td><p>…</p></td>
+<td><p>…</p></td>
+</tr>
+<tr class="row-even"><td><p>B3</p></td>
+<td><p>videotrack 12</p></td>
+</tr>
+</tbody>
+</table>
+<img alt="../_images/MidinoteRange.png" src="../_images/MidinoteRange.png" />
+</div>
+<div class="section" id="preparing-your-footage">
+<h2><a class="toc-backref" href="#id9">Preparing your footage</a><a class="headerlink" href="#preparing-your-footage" title="Permalink to this headline">¶</a></h2>
+<p>If there is no BpmSlicer folder structure already you can create one by
+clicking the <code class="docutils literal notranslate"><span class="pre">create</span> <span class="pre">folders</span></code> Button. The next step is to put all your
+footage you want to be placed into the active sequence, according to the
+notes in the midi file, into the <code class="docutils literal notranslate"><span class="pre">1</span> <span class="pre">source</span></code> folder and assign the
+appropriate prefix for each footage item. Make sure the prefix is a
+number between 1 - 12 and make sure there is a white space between the
+prefix number and the footage name.</p>
+<p>The next thing you want to make sure is that you add as much videotracks
+to the active sequence as your highest assigned prefix is. In the
+following example the highest assigned prefix is 4, so you need to make
+sure there are at least 4 videotracks available.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">BpmSlicer</span>
+  <span class="mi">1</span> <span class="n">source</span>
+    <span class="mi">1</span> <span class="n">VideoClip2</span><span class="o">.</span><span class="n">mov</span>
+    <span class="mi">2</span> <span class="n">LensFlare2</span><span class="o">.</span><span class="n">mov</span>
+    <span class="mi">3</span> <span class="n">Transition_1</span><span class="o">.</span><span class="n">mov</span>
+    <span class="mi">4</span> <span class="n">PaperTexture_9</span><span class="o">.</span><span class="n">png</span>
+    <span class="mi">4</span> <span class="n">PaperTexture_1</span><span class="o">.</span><span class="n">mov</span>
+</pre></div>
+</div>
+<p>As you notice in the example it‘s possible to assign the same prefix to
+as many footage items as you like. If you assign the same prefix to more
+then one footage items, this function selects a random footage item each
+time it finds a midi note for the appropriate videotrack.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../troubleshooting.html" class="btn btn-neutral float-right" title="Troubleshooting" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="console.html" class="btn btn-neutral float-left" title="The Console" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Daniel Kreth
+
+    </p>
+  </div> 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+    <!-- Theme Analytics -->
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-XXXXXXX-1', 'auto');
+    ga('send', 'pageview');
+    </script>
+
+    
+   
+
+</body>
+</html>

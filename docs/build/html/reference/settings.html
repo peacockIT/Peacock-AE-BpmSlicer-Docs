@@ -1,0 +1,316 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Settings &mdash; BpmSlicer Documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script type="text/javascript" src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Random" href="random.html" />
+    <link rel="prev" title="Transitions" href="transitions.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search"  style="background: #2980B9" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> BpmSlicer
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Getting Started</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../intro.html">About This Documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../getting_started/install.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../getting_started/getting_started.html">Getting Started</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Reference</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="generel.html">Generel</a></li>
+<li class="toctree-l1"><a class="reference internal" href="slices.html">Slices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="markers.html">Markers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="transitions.html">Transitions</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Settings</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#audio-reference">Audio Reference</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#move-to-top">Move to Top</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#remove-first-selected-layers">Remove first selected layers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#put-in-sub-comp">Put in sub comp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#create-effects-layer">Create effects layer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#set-starttime-to-inpoint">Set starttime to inPoint</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#use-beat-detection">Use beat detection</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#save-bpm-slices">Save Bpm Slices</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#snap-in-out-transition-to-bpm">Snap In/Out Transition To Bpm</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="random.html">Random</a></li>
+<li class="toctree-l1"><a class="reference internal" href="console.html">The Console</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Midiconverter</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="midiconverter.html">Midiconverter</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Troubleshooting</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../troubleshooting.html">Troubleshooting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../work_in_progress.html">Work in Progress</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">BpmSlicer</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>Settings</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/reference/settings.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="settings">
+<h1><a class="toc-backref" href="#id1">Settings</a><a class="headerlink" href="#settings" title="Permalink to this headline">¶</a></h1>
+<div class="contents topic" id="table-of-contents">
+<p class="topic-title first">Table of Contents</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#settings" id="id1">Settings</a></p>
+<ul>
+<li><p><a class="reference internal" href="#audio-reference" id="id2">Audio Reference</a></p></li>
+<li><p><a class="reference internal" href="#move-to-top" id="id3">Move to Top</a></p></li>
+<li><p><a class="reference internal" href="#remove-first-selected-layers" id="id4">Remove first selected layers</a></p></li>
+<li><p><a class="reference internal" href="#put-in-sub-comp" id="id5">Put in sub comp</a></p></li>
+<li><p><a class="reference internal" href="#create-effects-layer" id="id6">Create effects layer</a></p></li>
+<li><p><a class="reference internal" href="#set-starttime-to-inpoint" id="id7">Set starttime to inPoint</a></p></li>
+<li><p><a class="reference internal" href="#use-beat-detection" id="id8">Use beat detection</a></p></li>
+<li><p><a class="reference internal" href="#save-bpm-slices" id="id9">Save Bpm Slices</a></p></li>
+<li><p><a class="reference internal" href="#snap-in-out-transition-to-bpm" id="id10">Snap In/Out Transition To Bpm</a></p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="audio-reference">
+<h2><a class="toc-backref" href="#id2">Audio Reference</a><a class="headerlink" href="#audio-reference" title="Permalink to this headline">¶</a></h2>
+<p>Select whether your audio file is the first or the last layer in your
+composition.</p>
+</div>
+<div class="section" id="move-to-top">
+<h2><a class="toc-backref" href="#id3">Move to Top</a><a class="headerlink" href="#move-to-top" title="Permalink to this headline">¶</a></h2>
+<p>After a slice is created it gets moved to the top of the composition.</p>
+</div>
+<div class="section" id="remove-first-selected-layers">
+<h2><a class="toc-backref" href="#id4">Remove first selected layers</a><a class="headerlink" href="#remove-first-selected-layers" title="Permalink to this headline">¶</a></h2>
+<p>After all slices are created, the layer/s that where selected before the
+<code class="docutils literal notranslate"><span class="pre">Slice</span></code> button was pressed, are getting deleted.</p>
+</div>
+<div class="section" id="put-in-sub-comp">
+<h2><a class="toc-backref" href="#id5">Put in sub comp</a><a class="headerlink" href="#put-in-sub-comp" title="Permalink to this headline">¶</a></h2>
+<p>After all slices are created, all slices and the first selected layer
+are getting moved to a sub composition.</p>
+</div>
+<div class="section" id="create-effects-layer">
+<h2><a class="toc-backref" href="#id6">Create effects layer</a><a class="headerlink" href="#create-effects-layer" title="Permalink to this headline">¶</a></h2>
+<p>A adjustment layer is created on top of all other layers in the
+composition. The following list shows all effects that are applied on
+the adjustment layer. The keyframes on the effects are the slice
+inPoints from the sliceArray. Basically the values for each slice are
+randomly choosen such as random color overlay for each slice.</p>
+<ul class="simple">
+<li><p>Farbbalance (HSL)</p></li>
+<li><p>Farbton, Sättigung</p></li>
+<li><p>4-Farben-Verlauf
+Punkt 1, Farbe 1, Punkt 2, Farbe 2, Punkt 3, Farbe 3, Punkt 4, Farbe 4, Deckkraft</p></li>
+</ul>
+</div>
+<div class="section" id="set-starttime-to-inpoint">
+<h2><a class="toc-backref" href="#id7">Set starttime to inPoint</a><a class="headerlink" href="#set-starttime-to-inpoint" title="Permalink to this headline">¶</a></h2>
+<p>Sets the start time of all slices to the inpoint.</p>
+</div>
+<div class="section" id="use-beat-detection">
+<h2><a class="toc-backref" href="#id8">Use beat detection</a><a class="headerlink" href="#use-beat-detection" title="Permalink to this headline">¶</a></h2>
+<p>See <code class="docutils literal notranslate"><span class="pre">Markers</span> <span class="pre">from</span> <span class="pre">Beat</span></code>.</p>
+</div>
+<div class="section" id="save-bpm-slices">
+<h2><a class="toc-backref" href="#id9">Save Bpm Slices</a><a class="headerlink" href="#save-bpm-slices" title="Permalink to this headline">¶</a></h2>
+<p>If checked then the slices of the sliceArray are getting saved in a txt
+file called <code class="docutils literal notranslate"><span class="pre">BpmSlices.txt</span></code> in the same folder where the after effects
+project is located.</p>
+</div>
+<div class="section" id="snap-in-out-transition-to-bpm">
+<h2><a class="toc-backref" href="#id10">Snap In/Out Transition To Bpm</a><a class="headerlink" href="#snap-in-out-transition-to-bpm" title="Permalink to this headline">¶</a></h2>
+<p>If checked then the in and out value for the transition function are
+getting updated each time the bpm or the bars value changes.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="random.html" class="btn btn-neutral float-right" title="Random" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="transitions.html" class="btn btn-neutral float-left" title="Transitions" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Daniel Kreth
+
+    </p>
+  </div> 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+    <!-- Theme Analytics -->
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-XXXXXXX-1', 'auto');
+    ga('send', 'pageview');
+    </script>
+
+    
+   
+
+</body>
+</html>
