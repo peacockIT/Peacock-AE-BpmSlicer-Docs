@@ -3,7 +3,7 @@ Transitions
 ~~~~~~~~~~~
 
 A (In)
------
+------
 
 Attack of the envelope.
 If ``Loop`` is unchecked this is the in transition.
@@ -19,7 +19,7 @@ S
 Sustain of the envelope.
 
 R (Out)
-------
+-------
 
 Release of the envelope.
 If ``Loop`` is unchecked this is the out transition.

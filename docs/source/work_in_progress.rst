@@ -79,8 +79,7 @@ In Progress
 
    ddown.onActivate = ddown.onDeactivate = function () {buffer = "";}
 
--  Validating Input, edittext with red background `page 104 in scriptui
-   PDF`_
+-  Validating Input, edittext with red background `page 104 in scriptui PDF`_
 
 .. code-block:: javascript
 

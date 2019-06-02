@@ -46,7 +46,7 @@ move back
 Moves the selected layer according to the bpm and bars value to the left.
 
 move forth
----------
+----------
 
 Moves the selected layer according to the bpm and bars value to the right.
 
